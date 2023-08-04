@@ -45,7 +45,7 @@ body {
 	--_fontsize: clamp(36px, 7vw, 7rem);
 	--_height: calc(var(--_fontsize) * 1.3);
 	--_margin-size: calc(
-		50vh - var(--_height) * 0.5 - 0.5 * var(--bean-size) -
+		50dvh - var(--_height) * 0.5 - 0.5 * var(--bean-size) -
 			var(--divider-border-size)
 	);
 	position: sticky;
