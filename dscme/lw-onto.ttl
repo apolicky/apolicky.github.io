@@ -11,6 +11,10 @@
     rdfs:domain <https://my-model.org/huge-area>;
     a rdf:Property, owl:ObjectProperty;
     rdfs:domain <https://my-model.org/huge-area>.
+<https://some.placeholder.com/iri> a rdf:Property, owl:ObjectProperty;
+    rdfs:label "founder"@en;
+    rdfs:domain <https://my-model.org/huge-area>;
+    rdfs:range <obbnqifa19altzvv80l>.
 <https://slovník.gov.cz/datový/turistické-cíle/pojem/jazyk> a owl:Class, rdfs:Class;
     rdfs:label "Jazyk"@cs.
 <https://slovník.gov.cz/datový/turistické-cíle/pojem/turistický-cíl> a owl:Class, rdfs:Class;
@@ -113,3 +117,9 @@
 <https://slovník.gov.cz/veřejný-sektor/pojem/člověk> a owl:Class, rdfs:Class;
     rdfs:label "Člověk"@cs, "Human"@en;
     rdfs:comment "Člověk je rod živočichů."@cs, "Human is the genus that encompasses the species Homo sapiens."@en.
+<https://my-model.org/friendly-party> a owl:Class, rdfs:Class;
+    rdfs:label "Friendly Party"@en.
+<https://some.placeholder.com/iri> a rdf:Property, owl:ObjectProperty;
+    rdfs:label "happens at"@en;
+    rdfs:domain <https://my-model.org/friendly-party>;
+    rdfs:range <https://my-model.org/huge-area>.
