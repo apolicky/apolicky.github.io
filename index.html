@@ -9,8 +9,8 @@
         <style>
             ::selection {
                 background-blend-mode: darken;
-                background-color: black;
-                color: white;
+                background-color: #0c0a09;
+                color: #fafaf9;
             }
 
             .button-shadow {
@@ -24,15 +24,15 @@
                 left: 5px;
                 right: -5px;
                 bottom: -5px;
-                background: black;
-                border: solid 1px black;
+                background: #0c0a09;
+                border: solid 1px #0c0a09;
                 z-index: -1;
             }
 
             @media (prefers-color-scheme: dark) {
                 ::selection {
-                    background-color: #f9fafb;
-                    color: #030712;
+                    background-color: #fafaf9;
+                    color: #0c0a09;
                 }
 
                 .button-shadow.adaptive::after {
@@ -42,23 +42,23 @@
                     left: 5px;
                     right: -5px;
                     bottom: -5px;
-                    background: #f9fafb;
-                    border: solid 1px #f9fafb;
+                    background: #fafaf9;
+                    border: solid 1px #fafaf9;
                     z-index: -1;
                 }
             }
         </style>
     </head>
-    <body class="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900 dark:text-gray-50 font-mono w-full">
-        <header class="mx-2 mt-2 content-center border-black dark:border-gray-50 border-2 gap-x-2 px-2 py-2">
+    <body class="min-h-screen flex flex-col bg-stone-50 dark:bg-stone-950 dark:text-stone-50 font-mono w-full">
+        <header class="mx-2 mt-2 content-center border-stone-950 dark:border-stone-50 border-2 gap-x-2 px-2 py-2">
             <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">Adam Polický</h1>
         </header>
         <header
-            class="mx-2 mb-4 content-center border-black dark:border-gray-50 border-x-2 border-b-2 gap-x-2 px-2 py-1"
+            class="mx-2 mb-4 content-center border-stone-950 dark:border-stone-50 border-x-2 border-b-2 gap-x-2 px-2 py-1"
         >
             <div class="md:text-lg flex flex-col md:flex-row">
                 <div>Software Developer</div>
-                <div class="h-[1px] md:w-[2px] md:mx-2 md:my-auto md:h-4 bg-black dark:bg-gray-50"></div>
+                <div class="h-[1px] md:w-[2px] md:mx-2 md:my-auto md:h-4 bg-stone-950 dark:bg-stone-50"></div>
                 <div>Masters Student in Computer Science</div>
             </div>
         </header>
@@ -73,26 +73,26 @@
             </section>
         </main>
         <footer
-            class="grid grid-cols-1 grid-rows-[auto_auto_auto_auto_1fr] sm:grid-cols-[auto_auto_auto_auto_1fr] sm:grid-rows-1 m-2 border-black dark:border-gray-50 border-2 px-2 sm:*:mr-4 *:mt-1 md:*:mt-2 *:mb-2 l [&>a]:bg-gray-50 dark:[&>a]:bg-gray-900"
+            class="grid grid-cols-1 grid-rows-[auto_auto_auto_auto_1fr] sm:grid-cols-[auto_auto_auto_auto_1fr] sm:grid-rows-1 m-2 border-stone-950 dark:border-stone-50 border-2 px-2 sm:*:mr-4 *:mt-1 md:*:mt-2 *:mb-2 l [&>a]:bg-stone-50 dark:[&>a]:bg-stone-950"
         >
             <div class="self-center">Contact:</div>
             <a
                 href="mailto:heyy@apolicky.xyz"
-                class="border-black dark:border-gray-50 border-2 py-1 px-4 hover:bg-black dark:hover:bg-gray-50 hover:text-white dark:hover:text-gray-900 button-shadow adaptive"
+                class="border-stone-950 dark:border-stone-50 border-2 py-1 px-4 hover:bg-stone-950 dark:hover:bg-stone-50 hover:text-stone-50 dark:hover:text-stone-950 button-shadow adaptive"
                 >heyy@apolicky.xyz</a
             ><a
                 href="https://www.linkedin.com/in/adam-polický"
                 target="_blank"
-                class="border-black dark:border-gray-50 border-2 py-1 px-4 hover:bg-black dark:hover:bg-gray-50 hover:text-white dark:hover:text-gray-900 button-shadow adaptive"
+                class="border-stone-950 dark:border-stone-50 border-2 py-1 px-4 hover:bg-stone-950 dark:hover:bg-stone-50 hover:text-stone-50 dark:hover:text-stone-950 button-shadow adaptive"
                 >LinkedIn</a
             >
             <a
                 href="https://github.com/apolicky"
                 target="_blank"
-                class="border-black dark:border-gray-50 border-2 py-1 px-4 hover:bg-black dark:hover:bg-gray-50 hover:text-white dark:hover:text-gray-900 button-shadow adaptive"
+                class="border-stone-950 dark:border-stone-50 border-2 py-1 px-4 hover:bg-stone-950 dark:hover:bg-stone-50 hover:text-stone-50 dark:hover:text-stone-950 button-shadow adaptive"
                 >GitHub</a
             >
-            <div class="sm:justify-self-end sm:mr-2 dark:text-gray-50 hidden">IČO: TODOTODO</div>
+            <div class="sm:justify-self-end sm:mr-2 dark:text-stone-50 hidden">IČO: TODOTODO</div>
         </footer>
     </body>
 </html>

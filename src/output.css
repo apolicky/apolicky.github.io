@@ -658,14 +658,24 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-stone-950 {
+  --tw-border-opacity: 1;
+  border-color: rgb(12 10 9 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-50 {
+.bg-stone-50 {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  background-color: rgb(250 250 249 / var(--tw-bg-opacity));
+}
+
+.bg-stone-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 10 9 / var(--tw-bg-opacity));
 }
 
 .px-2 {
@@ -714,9 +724,19 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-stone-950:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 10 9 / var(--tw-bg-opacity));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-stone-50:hover {
+  --tw-text-opacity: 1;
+  color: rgb(250 250 249 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -791,45 +811,45 @@ video {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:border-gray-50 {
+  .dark\:border-stone-50 {
     --tw-border-opacity: 1;
-    border-color: rgb(249 250 251 / var(--tw-border-opacity));
+    border-color: rgb(250 250 249 / var(--tw-border-opacity));
   }
 
-  .dark\:bg-gray-50 {
+  .dark\:bg-stone-50 {
     --tw-bg-opacity: 1;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+    background-color: rgb(250 250 249 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-gray-900 {
+  .dark\:bg-stone-950 {
     --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+    background-color: rgb(12 10 9 / var(--tw-bg-opacity));
   }
 
-  .dark\:text-gray-50 {
+  .dark\:text-stone-50 {
     --tw-text-opacity: 1;
-    color: rgb(249 250 251 / var(--tw-text-opacity));
+    color: rgb(250 250 249 / var(--tw-text-opacity));
   }
 
-  .dark\:hover\:bg-gray-50:hover {
+  .dark\:hover\:bg-stone-50:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+    background-color: rgb(250 250 249 / var(--tw-bg-opacity));
   }
 
-  .dark\:hover\:text-gray-900:hover {
+  .dark\:hover\:text-stone-950:hover {
     --tw-text-opacity: 1;
-    color: rgb(17 24 39 / var(--tw-text-opacity));
+    color: rgb(12 10 9 / var(--tw-text-opacity));
   }
 }
 
-.\[\&\>a\]\:bg-gray-50>a {
+.\[\&\>a\]\:bg-stone-50>a {
   --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+  background-color: rgb(250 250 249 / var(--tw-bg-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:\[\&\>a\]\:bg-gray-900>a {
+  .dark\:\[\&\>a\]\:bg-stone-950>a {
     --tw-bg-opacity: 1;
-    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+    background-color: rgb(12 10 9 / var(--tw-bg-opacity));
   }
 }
