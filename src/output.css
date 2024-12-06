@@ -591,10 +591,6 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-\[1px\] {
   height: 1px;
 }
@@ -697,8 +693,23 @@ video {
   line-height: 2rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.text-stone-300 {
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity));
+}
+
+.text-stone-700 {
+  --tw-text-opacity: 1;
+  color: rgb(68 64 60 / var(--tw-text-opacity));
 }
 
 .\*\:mb-2 > * {
@@ -809,6 +820,11 @@ video {
   .dark\:text-stone-50 {
     --tw-text-opacity: 1;
     color: rgb(250 250 249 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-stone-700 {
+    --tw-text-opacity: 1;
+    color: rgb(68 64 60 / var(--tw-text-opacity));
   }
 
   .dark\:hover\:bg-stone-50:hover {
