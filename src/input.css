@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Metron";
+        font-weight: 400;
+        font-weight: normal;
+        font-style: normal;
+        src: url(/fonts/metron/metron.otf) format("opentype");
+    }
+}

@@ -446,6 +446,18 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Metron";
+
+  font-weight: 400;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  src: url(/fonts/metron/metron.otf) format("opentype");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -649,9 +661,9 @@ video {
   border-bottom-width: 2px;
 }
 
-.border-stone-950 {
+.border-stone-900 {
   --tw-border-opacity: 1;
-  border-color: rgb(12 10 9 / var(--tw-border-opacity));
+  border-color: rgb(28 25 23 / var(--tw-border-opacity));
 }
 
 .bg-stone-50 {
@@ -659,9 +671,9 @@ video {
   background-color: rgb(250 250 249 / var(--tw-bg-opacity));
 }
 
-.bg-stone-950 {
+.bg-stone-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(12 10 9 / var(--tw-bg-opacity));
+  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
 }
 
 .px-2 {
@@ -702,6 +714,10 @@ video {
   font-weight: 700;
 }
 
+.font-extralight {
+  font-weight: 200;
+}
+
 .text-stone-300 {
   --tw-text-opacity: 1;
   color: rgb(214 211 209 / var(--tw-text-opacity));
@@ -712,6 +728,10 @@ video {
   color: rgb(68 64 60 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .\*\:mb-2 > * {
   margin-bottom: 0.5rem;
 }
@@ -720,9 +740,9 @@ video {
   margin-top: 0.25rem;
 }
 
-.hover\:bg-stone-950:hover {
+.hover\:bg-stone-900:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(12 10 9 / var(--tw-bg-opacity));
+  background-color: rgb(28 25 23 / var(--tw-bg-opacity));
 }
 
 .hover\:text-stone-50:hover {
@@ -812,9 +832,9 @@ video {
     background-color: rgb(250 250 249 / var(--tw-bg-opacity));
   }
 
-  .dark\:bg-stone-950 {
+  .dark\:bg-stone-900 {
     --tw-bg-opacity: 1;
-    background-color: rgb(12 10 9 / var(--tw-bg-opacity));
+    background-color: rgb(28 25 23 / var(--tw-bg-opacity));
   }
 
   .dark\:text-stone-50 {
@@ -832,9 +852,9 @@ video {
     background-color: rgb(250 250 249 / var(--tw-bg-opacity));
   }
 
-  .dark\:hover\:text-stone-950:hover {
+  .dark\:hover\:text-stone-900:hover {
     --tw-text-opacity: 1;
-    color: rgb(12 10 9 / var(--tw-text-opacity));
+    color: rgb(28 25 23 / var(--tw-text-opacity));
   }
 }
 
@@ -844,8 +864,8 @@ video {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:\[\&\>a\]\:bg-stone-950>a {
+  .dark\:\[\&\>a\]\:bg-stone-900>a {
     --tw-bg-opacity: 1;
-    background-color: rgb(12 10 9 / var(--tw-bg-opacity));
+    background-color: rgb(28 25 23 / var(--tw-bg-opacity));
   }
 }
