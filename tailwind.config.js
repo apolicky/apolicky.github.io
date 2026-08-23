@@ -5,9 +5,7 @@ module.exports = {
     content: ["./src/**/*.{html,js}", "./index.html"],
     theme: {
         extend: {
-            fontFamily: {
-                "metron": ["Metron", ...defaultTheme.fontFamily.mono]
-            }
+            fontFamily: {}
         },
     },
     plugins: [],
